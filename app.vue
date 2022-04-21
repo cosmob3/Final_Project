@@ -9,6 +9,6 @@
   </div>
 </template>
 
-<style setup>
+<style>
 @import url("https://fonts.googleapis.com/css2?family=Advent+Pro:wght@200&display=swap");
 </style>
