@@ -1,9 +1,11 @@
 <template>
   <div>
     <section>
-      <AppHero
-        :hero-text="'Your No. 1 stop for all you photography needs'"
-      ></AppHero>
+      <AppHero :hero-text="'Your No. 1 stop for all you photography needs'">
+        <template #button>
+          <HeroButton />
+        </template>
+      </AppHero>
     </section>
     <div class="bg-orange-lo">
       <AboutSection :blok="components[0]" />
@@ -14,6 +16,7 @@
 <script setup>
 import { hostname } from "os";
 import AboutSection from "~~/components/AboutSection.vue";
+import HeroButton from "~~/components/HeroButton.vue";
 
 // access the storyblok build in function
 const storyapi = useStoryApi();

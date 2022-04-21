@@ -1,3 +1,5 @@
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 module.exports = {
   content: [],
   presets: [],
@@ -399,6 +401,7 @@ module.exports = {
         '"Courier New"',
         "monospace",
       ],
+      sitewide: ["Advent Pro"],
     },
     fontSize: {
       xs: ["0.75rem", { lineHeight: "1rem" }],

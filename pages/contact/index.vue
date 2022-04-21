@@ -1,6 +1,10 @@
 <template>
   <div>
-    <AppHero :hero-text="'Book Today'"></AppHero>
-    <h1>This is the CONTACT page</h1>
+    <div>
+      <AppHero :hero-text="'Book Today'"></AppHero>
+    </div>
+    <div class="pt-10 bg-orange-lo">
+      <AppForm />
+    </div>
   </div>
 </template>

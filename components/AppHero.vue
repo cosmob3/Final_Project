@@ -1,9 +1,12 @@
 <template>
   <section
-    class="h-screen"
-    style="background-image: url('../assets/images/Hero-image.JPEG')"
+    class="h-screen bg-orange-lo"
+    style="background-image: url('../assets/images/hero_image_cropped.JPEG')"
   >
-    <h1 class="text-white text-7xl text-center pt-44">{{ heroText }}</h1>
+    <h1 class="text-white text-7xl font-bold text-center py-20">
+      {{ heroText }}
+    </h1>
+    <slot name="button"></slot>
   </section>
 </template>
 

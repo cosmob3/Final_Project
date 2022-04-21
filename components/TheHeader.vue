@@ -1,15 +1,23 @@
 <template>
   <nav class="flex bg-orange-lo justify-around p-12">
     <div class="flex bg-lo justify-around">
-      <NuxtLink class="px-10 text-2xl" to="/about">About Me</NuxtLink>
-      <NuxtLink class="px-10 text-2xl" to="/portfolio">Portfolio</NuxtLink>
+      <NuxtLink to="/about"
+        ><p class="px-10 text-2xl font-semibold">About Me</p></NuxtLink
+      >
+      <NuxtLink to="/portfolio"
+        ><p class="px-10 text-2xl font-semibold">Portfolio</p></NuxtLink
+      >
     </div>
     <div class="grow text-center mx-24">
-      <a href="/"><p class="text-5xl">AshLens Photography</p></a>
+      <a href="/"><p class="text-5xl font-bold">AshLens Photography</p></a>
     </div>
     <div class="flex">
-      <NuxtLink class="px-10 text-2xl" to="/contact">Book Today</NuxtLink>
-      <NuxtLink class="px-10 text-2xl" to="/faq">FAQ</NuxtLink>
+      <NuxtLink to="/contact"
+        ><p class="px-10 text-2xl font-semibold">Book Today</p></NuxtLink
+      >
+      <NuxtLink to="/faq"
+        ><p class="px-10 text-2xl font-semibold">FAQ</p></NuxtLink
+      >
     </div>
   </nav>
 </template>
