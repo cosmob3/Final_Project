@@ -1,22 +1,42 @@
 <template>
-  <nav class="flex bg-orange-lo justify-around p-12">
+  <nav class="flex bg-orange-lo justify-around p-10">
     <div class="flex bg-lo justify-around">
       <NuxtLink to="/about"
-        ><p class="px-10 text-2xl font-semibold">About Me</p></NuxtLink
+        ><p
+          class="px-10 text-2xl font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-125 duration-200"
+        >
+          About Me
+        </p></NuxtLink
       >
       <NuxtLink to="/portfolio"
-        ><p class="px-10 text-2xl font-semibold">Portfolio</p></NuxtLink
+        ><p
+          class="px-10 text-2xl font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-125 duration-200"
+        >
+          Portfolio
+        </p></NuxtLink
       >
     </div>
     <div class="grow text-center mx-24">
-      <a href="/"><p class="text-5xl font-bold">AshLens Photography</p></a>
+      <a href="/"
+        ><p class="text-5xl font-bold hover:animate-bounce">
+          AshLens Photography
+        </p></a
+      >
     </div>
     <div class="flex">
       <NuxtLink to="/contact"
-        ><p class="px-10 text-2xl font-semibold">Book Today</p></NuxtLink
+        ><p
+          class="px-10 text-2xl font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-125 duration-200"
+        >
+          Book Today
+        </p></NuxtLink
       >
       <NuxtLink to="/faq"
-        ><p class="px-10 text-2xl font-semibold">FAQ</p></NuxtLink
+        ><p
+          class="px-10 text-2xl font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-125 duration-200"
+        >
+          FAQ
+        </p></NuxtLink
       >
     </div>
   </nav>

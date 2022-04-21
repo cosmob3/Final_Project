@@ -2,7 +2,7 @@
   <div>
     <TheHeader />
     <main>
-      <div>
+      <div class="bg-orange-lo">
         <NuxtPage />
       </div>
     </main>

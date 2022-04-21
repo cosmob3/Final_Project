@@ -1,8 +1,8 @@
 <template>
   <div>
-    <section>
+    <div class="pb-10">
       <AppHero :hero-text="'About Me'"></AppHero>
-    </section>
+    </div>
     <div class="bg-orange-lo">
       <AboutSection :blok="components[0]" />
     </div>

@@ -17,4 +17,8 @@ export default defineNuxtConfig({
       href: "https://fonts.googleapis.com/css2?family=Advent+Pro&display=swap",
     },
   ],
+  transition: {
+    name: "my-layouts",
+    mode: "out-in",
+  },
 });

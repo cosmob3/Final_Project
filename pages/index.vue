@@ -1,12 +1,12 @@
 <template>
-  <div>
-    <section>
+  <div class="bg-orange-lo">
+    <div class="pb-10">
       <AppHero :hero-text="'Your No. 1 stop for all you photography needs'">
         <template #button>
           <HeroButton />
         </template>
       </AppHero>
-    </section>
+    </div>
     <div class="bg-orange-lo">
       <AboutSection :blok="components[0]" />
     </div>
