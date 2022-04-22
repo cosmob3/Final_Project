@@ -5,6 +5,8 @@
     </div>
     <div class="bg-orange-lo">
       <AboutSection :blok="components[0]" />
+      <AboutSection :blok="components[1]" />
+      <!-- <ExtraText :blok="components[1]" /> -->
     </div>
   </div>
 </template>
@@ -12,7 +14,7 @@
 <script setup>
 import { hostname } from "os";
 import AboutSection from "~~/components/AboutSection.vue";
-
+import AboutText from "~~/components/ExtraText.vue";
 // access the storyblok build in function
 const storyapi = useStoryApi();
 
