@@ -1,7 +1,8 @@
 ## TODO
 
-- Finish about page
+- X Finish about page
 - add images to bottom of home page
 - Fix portfolio > img[].vue backgrounds
-- Fonts in Contact page
 - FAQ page
+- Add footer
+- Fonts in Contact page

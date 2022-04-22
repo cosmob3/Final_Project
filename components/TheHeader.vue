@@ -18,7 +18,11 @@
     </div>
     <div class="grow text-center mx-24">
       <a class="flex justify-center gap-3" href="/">
-        <img src="~/assets/images/camera_logo.png" alt="Camera Shutter Icon" />
+        <img
+          class="hover:animate-[spin_2s_linear_infinite]"
+          src="~/assets/images/camera_logo.png"
+          alt="Camera Shutter Icon"
+        />
         <p class="text-5xl pt-2 font-bold">AshLens Photography</p>
       </a>
     </div>
@@ -40,10 +44,3 @@
     </div>
   </nav>
 </template>
-
-FEF9EF
-<script>
-export default {};
-</script>
-
-<style></style>

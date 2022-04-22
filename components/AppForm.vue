@@ -23,9 +23,11 @@ const submitHandler = async () => {
         action="https://formspree.io/f/mpzbyeyl"
         method="post"
       >
-        <h1 class="text-5xl font-semibold">Get in touch!</h1>
-        <p class="text-2xl py-2 text-blue-500">sample@gmail.com</p>
-        <p class="text-2xl py-2">
+        <h2 class="text-5xl font-bold">Get in touch!</h2>
+        <p class="text-3xl font-semibold py-2 text-blue-500">
+          AshLens_PhotoGraphy@sample.com
+        </p>
+        <p class="text-3xl font-semibold py-2">
           If you have any questions, email me or fill out the form below and
           I’ll get back to you within 48 hours...
         </p>
@@ -39,7 +41,7 @@ const submitHandler = async () => {
           help="What do people call you?"
           validation="required"
           outer-class="mb-5"
-          label-class="block mb-1 font-bold text-sm"
+          label-class="block mb-1 font-bold text-lg"
           inner-class="max-w-xl border border-gray-400 rounded-lg mb-1 overflow-hidden focus-within:border-blue-500"
           input-class="w-full h-10 px-3 border-none text-base text-gray-700 placeholder-gray-400"
           help-class="text-xs text-gray-500"

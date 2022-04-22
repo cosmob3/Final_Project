@@ -53,6 +53,9 @@ module.exports = {
           sr: "#FE6D73",
         },
       },
+      animation: {
+        "spin-slow": "spin 2s linear infinite",
+      },
     },
     columns: {
       auto: "auto",
