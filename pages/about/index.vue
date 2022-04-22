@@ -3,16 +3,18 @@
     <div class="pb-10">
       <AppHero :hero-text="'About Me'"></AppHero>
     </div>
-    <div class="grid grid-cols-7">
-      <div class="flex flex-col justify-center col-start-2 col-span-3 gap-6">
+    <div class="grid sm:grid-cols-5 md:grid-cols-7">
+      <div
+        class="flex flex-col justify-center sm:col-start-2 sm:col-span-3 gap-6"
+      >
         <h2 class="text-5xl bg-lo text-center font-semibold">
           {{ state.story.content.title }}
         </h2>
-        <p class="text-3xl font-semibold px-10 py-20">
-          {{ state.story.content.text }}
-        </p>
+        <p class="text-3xl text-center px-10">{{ state.story.content.text }}</p>
       </div>
-      <div class="col-start-5 col-end-7">
+      <div
+        class="sm:pt-6 sm:col-start-2 sm:row-start-2 md:row-start-1 sm:col-span-3 md:col-start-5 md:col-end-7"
+      >
         <img
           class="rounded-xl"
           :src="state.story.content.image"
@@ -21,8 +23,8 @@
       </div>
     </div>
     <div class="pt-10">
-      <div class="grid grid-cols-7">
-        <h3 class="col-start-2 col-span-2 text-3xl font-extrabold">
+      <div class="grid sm:grid-cols-5 md:grid-cols-7">
+        <h3 class="col-start-2 col-span-3 text-3xl font-extrabold">
           A little about me
         </h3>
       </div>

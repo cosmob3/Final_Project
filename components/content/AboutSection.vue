@@ -1,10 +1,10 @@
 <template>
-  <div class="grid sm:grid-cols-3 md:grid-cols-7 pt-8">
-    <div class="flex flex-col justify-center col-start-2 md:col-span-5 gap-6">
-      <p class="text-3xl font-semibold px-10">
-        {{ props.blok.text }}
-      </p>
-    </div>
+  <div class="grid sm:grid-cols-5 md:grid-cols-7 pt-8">
+    <p
+      class="sm:text-2xl md:text-3xl md:px-10 sm:col-start-2 md:col-start-2 sm:col-span-3 md:col-span-5 gap-6"
+    >
+      {{ props.blok.text }}
+    </p>
   </div>
 </template>
 
