@@ -7,7 +7,7 @@
         alt=""
       />
     </a>
-    <p class="text-white text-2xl col-start-4 col-span-3">
+    <p class="text-white sm:text-xl md:text-2xl col-start-4 col-span-3">
       &copy; Bryan Velasco 2022
     </p>
   </div>

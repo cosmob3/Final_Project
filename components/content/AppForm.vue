@@ -41,7 +41,6 @@ const submitHandler = async () => {
           placeholder="Jane Doe"
           help="What do people call you?"
           validation="required"
-          validation-visibility="live"
           outer-class="mb-5"
           label-class="block mb-1 font-bold text-xl"
           inner-class="max-w-lg border border-gray-400 rounded-lg mb-1 overflow-hidden focus-within:border-blue-500"
@@ -56,7 +55,6 @@ const submitHandler = async () => {
           placeholder="jane@example.com"
           help="What email should we use?"
           validation="required|*email"
-          validation-visibility="live"
           :classes="{
             outer: 'mb-5',
             label: 'block mb-1 font-bold text-xl',
@@ -73,7 +71,6 @@ const submitHandler = async () => {
           name="text"
           label="Message"
           validation="required"
-          validation-visibility="live"
           placeholder="What can I do for you"
           help="A short message letting me know what you are looking for"
           :classes="{

@@ -11,10 +11,12 @@
       <div
         class="flex flex-col justify-center sm:col-start-2 sm:col-span-3 gap-6"
       >
-        <h2 class="text-5xl bg-lo text-center font-semibold">
+        <h2 class="sm:text-3xl md:text-5xl bg-lo text-center font-semibold">
           {{ state.story.content.title }}
         </h2>
-        <p class="text-3xl text-center px-10">{{ state.story.content.text }}</p>
+        <p class="sm:text-2xl md:text-3xl text-center px-10">
+          {{ state.story.content.text }}
+        </p>
       </div>
       <div
         class="sm:pt-6 sm:col-start-2 sm:row-start-2 md:row-start-1 sm:col-span-3 md:col-start-5 md:col-end-7"
