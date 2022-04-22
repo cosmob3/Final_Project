@@ -4,7 +4,7 @@
       <AppHero :hero-text="'Portfolio'"></AppHero>
     </section>
     <h2 class="text-center text-5xl p-20">Some of my favourites...</h2>
-    <div class="grid gap-4 grid-cols-5">
+    <div class="grid gap-4 grid-cols-5 pb-24">
       <!-- Image 1 -->
       <NuxtLink class="col-start-2 col-span-1" to="/portfolio/img1">
         <img

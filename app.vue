@@ -2,10 +2,11 @@
   <div>
     <TheHeader />
     <main>
-      <div class="bg-orange-lo">
+      <div class="bg-orange-lo h-full">
         <NuxtPage />
       </div>
     </main>
+    <TheFooter />
   </div>
 </template>
 

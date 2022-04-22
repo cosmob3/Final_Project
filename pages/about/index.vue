@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="pb-24">
     <div class="pb-10">
       <AppHero :hero-text="'About Me'"></AppHero>
     </div>
@@ -33,7 +33,7 @@
 
 <script setup>
 import { hostname } from "os";
-import AboutSection from "~~/components/AboutSection.vue";
+import AboutSection from "~~/components/content/AboutSection.vue";
 // access the storyblok build in function
 const storyapi = useStoryApi();
 

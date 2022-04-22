@@ -1,9 +1,9 @@
 <template>
-  <div class="bg-orange-lo">
+  <div class="bg-orange-lo pb-24">
     <div class="pb-10">
       <AppHero :hero-text="'Your No. 1 stop for all you photography needs'">
         <template #button>
-          <HeroButton />
+          <HeroCta />
         </template>
       </AppHero>
     </div>
@@ -25,7 +25,7 @@
     <section class="pt-10">
       <div class="grid grid-cols-7">
         <div class="col-span-7 col-start-2">
-          <h3 class="text-2xl font-semibold pb-10">Some of my work</h3>
+          <h3 class="text-3xl font-semibold pb-10">Some of my work</h3>
         </div>
         <!-- Image 1 -->
         <NuxtLink class="col-start-2" to="/portfolio/img1">
@@ -74,8 +74,7 @@
 
 <script setup>
 import { hostname } from "os";
-import AboutSection from "~~/components/AboutSection.vue";
-import HeroButton from "~~/components/HeroButton.vue";
+import HeroButton from "~~/components/content/HeroCta.vue";
 
 // access the storyblok build in function
 const storyapi = useStoryApi();
@@ -92,6 +91,4 @@ const pageContent = state.story;
 
 // Make it easy to assign content from components
 const components = state.story.content.body;
-
-console.log(state.story.content);
 </script>

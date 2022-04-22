@@ -1,6 +1,5 @@
 <script setup>
 import { ref } from "vue";
-import "@formkit/themes/genesis";
 
 const submitted = ref(false);
 const formData = ref({});
@@ -17,11 +16,13 @@ const submitHandler = async () => {
       <!-- Beginning of Form -->
       <FormKit
         type="form"
-        v-model="formData"
         :form-class="submitted ? 'hide' : 'show'"
-        submit-label="Submit"
+        submit-label="Send Message"
         action="https://formspree.io/f/mpzbyeyl"
         method="post"
+        :classes="{
+          submit: 'text-xl',
+        }"
       >
         <h2 class="text-5xl font-bold">Get in touch!</h2>
         <p class="text-3xl font-semibold py-2 text-blue-500">
@@ -40,11 +41,12 @@ const submitHandler = async () => {
           placeholder="Jane Doe"
           help="What do people call you?"
           validation="required"
+          validation-visibility="live"
           outer-class="mb-5"
-          label-class="block mb-1 font-bold text-lg"
-          inner-class="max-w-xl border border-gray-400 rounded-lg mb-1 overflow-hidden focus-within:border-blue-500"
+          label-class="block mb-1 font-bold text-xl"
+          inner-class="max-w-lg border border-gray-400 rounded-lg mb-1 overflow-hidden focus-within:border-blue-500"
           input-class="w-full h-10 px-3 border-none text-base text-gray-700 placeholder-gray-400"
-          help-class="text-xs text-gray-500"
+          help-class="text-lg text-gray-500"
         />
         <!-- Email -->
         <FormKit
@@ -53,15 +55,16 @@ const submitHandler = async () => {
           label="Your email"
           placeholder="jane@example.com"
           help="What email should we use?"
-          validation="required|email"
+          validation="required|*email"
+          validation-visibility="live"
           :classes="{
             outer: 'mb-5',
-            label: 'block mb-1 font-bold text-sm',
+            label: 'block mb-1 font-bold text-xl',
             inner:
-              'max-w-md border border-gray-400 rounded-lg mb-1 overflow-hidden focus-within:border-blue-500',
+              'max-w-lg border border-gray-400 rounded-lg mb-1 overflow-hidden focus-within:border-blue-500',
             input:
               'w-full h-10 px-3 border-none text-base text-gray-700 placeholder-gray-400',
-            help: 'text-xs text-gray-500',
+            help: 'text-lg text-gray-500',
           }"
         />
         <!-- Textarea -->
@@ -70,16 +73,17 @@ const submitHandler = async () => {
           name="text"
           label="Message"
           validation="required"
+          validation-visibility="live"
           placeholder="What can I do for you"
           help="A short message letting me know what you are looking for"
           :classes="{
             outer: 'mb-5',
             inner:
-              'max-w-md h-24 border border-gray-400 rounded-lg mb-1 overflow-hidden focus-within:border-blue-500',
+              'max-w-lg h-24 border border-gray-400 rounded-lg mb-1 overflow-hidden focus-within:border-blue-500',
             input:
               'w-full h-24 px-3 border-none text-base text-gray-700 placeholder-gray-400',
-            label: 'block mb-1 font-bold text-sm',
-            help: 'text-xs text-gray-500',
+            label: 'block mb-1 font-bold text-xl',
+            help: 'text-lg text-gray-500',
           }"
         />
       </FormKit>

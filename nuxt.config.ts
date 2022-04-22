@@ -10,15 +10,16 @@ export default defineNuxtConfig({
     "@nuxtjs/tailwindcss",
     ["@storyblok/nuxt", { accessToken: "O6OjI9c1SihrHFfAXTDTqwtt" }],
   ],
-  css: ["~/assets/css/main.css"],
   links: [
     {
       rel: "stylesheet",
       href: "https://fonts.googleapis.com/css2?family=Advent+Pro&display=swap",
     },
   ],
-  transition: {
-    name: "my-layouts",
-    mode: "out-in",
-  },
+  components: [
+    "~/components",
+    "~/components/ui",
+    "~/components/utility",
+    "~/components/content",
+  ],
 });
