@@ -24,11 +24,11 @@ const submitHandler = async () => {
           submit: 'text-xl',
         }"
       >
-        <h2 class="text-5xl font-bold">Get in touch!</h2>
-        <p class="text-3xl font-semibold py-2 text-blue-500">
+        <h2 class="sm:text-3xl md:text-5xl font-bold pb-2">Get in touch!</h2>
+        <p class="sm:text-2xl md:text-3xl font-semibold py-2 text-blue-500">
           AshLens_PhotoGraphy@sample.com
         </p>
-        <p class="text-3xl font-semibold py-2">
+        <p class="sm:text-2xl md:text-3xl font-semibold py-2">
           If you have any questions, email me or fill out the form below and
           I’ll get back to you within 48 hours...
         </p>
