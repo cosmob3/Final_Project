@@ -1,6 +1,6 @@
 <template>
   <section
-    class="h-screen bg-orange-lo"
+    class="sm:pb-96 md:h-screen bg-orange-lo"
     style="background-image: url('../assets/images/hero_image_cropped.JPEG')"
   >
     <h1 class="text-white sm:text-5xl md:text-7xl font-bold text-center py-20">
