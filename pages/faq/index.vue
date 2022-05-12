@@ -10,6 +10,12 @@
           :answer="'To make things easy for you, we accept credit card, e-transfer or cheque.'"
         ></FaqCard>
       </div>
+      <!-- <div class="md:col-start-5 md:col-span-2">
+        <img
+          src="https://a.storyblok.com/f/154289/5616x3744/bd24ee5410/flowers-n-heels.jpg/m/600x200/smart"
+          alt="wedding image"
+        />
+      </div> -->
       <div
         class="self-center md:col-start-5 sm:col-start-2 sm:row-start-2 sm:col-span-3 md:col-span-2"
       >

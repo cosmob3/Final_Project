@@ -10,7 +10,7 @@
       <!-- Image 1 -->
       <NuxtLink
         class="sm:col-start-2 md:col-start-2 sm:col-span-2 md:col-span-1"
-        to="/portfolio/img1"
+        to="/portfolio/images-admin/img"
       >
         <img
           class="rounded-xl hover:scale-105"

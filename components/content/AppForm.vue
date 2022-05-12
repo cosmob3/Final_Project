@@ -33,6 +33,7 @@ const submitHandler = async () => {
           I’ll get back to you within 48 hours...
         </p>
         <hr class="pb-10" />
+
         <!-- Name -->
         <FormKit
           type="text"
@@ -47,6 +48,7 @@ const submitHandler = async () => {
           input-class="w-full h-10 px-3 border-none text-base text-gray-700 placeholder-gray-400"
           help-class="text-lg text-gray-500"
         />
+
         <!-- Email -->
         <FormKit
           type="text"

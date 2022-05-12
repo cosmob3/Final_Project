@@ -1,9 +1,0 @@
-<template>
-  <div class="flex justify-center py-24">
-    <img
-      class="rounded-xl sm:w-screen md:w-auto md:h-screen"
-      src="~/assets/images/oso_w_sunflower.jpg"
-      alt="Dog next to sunflower"
-    />
-  </div>
-</template>
